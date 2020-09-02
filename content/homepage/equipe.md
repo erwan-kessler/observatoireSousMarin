@@ -1,5 +1,5 @@
 ---
-title: "L\'équipe"
+title: "L'équipe"
 weight: 30
 header_menu: true
 ---
