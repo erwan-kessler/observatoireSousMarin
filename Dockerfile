@@ -15,7 +15,7 @@ RUN wget -O - https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION
     && rm -rf /tmp/LICENSE.md \
     && rm -rf /tmp/README.md
 
-RUN apk add --update git asciidoctor libc6-compat libstdc++ nodejs npm \
+RUN apk add --update git asciidoctor libc6-compat libstdc++ \
     && apk upgrade \
     && apk add --no-cache ca-certificates 
 
@@ -23,8 +23,7 @@ VOLUME /src
 VOLUME /output
 
 WORKDIR /src 
-COPY ./package.json /src/package.json
-RUN npm install
+
 
 COPY ./run.sh /run.sh
 RUN chmod 0777 /run.sh
