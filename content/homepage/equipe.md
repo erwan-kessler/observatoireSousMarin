@@ -10,7 +10,7 @@ header_menu: true
 
 ![Katell GUIZIEN](images/katell.jpg)
 
-Chargée de recherche CNRS, Laboratoire d'Ecogéochimie des Environnements Benthiques, Observatoire Océanologique de Banyuls.
+Directrice de recherche CNRS, Laboratoire d'Ecogéochimie des Environnements Benthiques, Observatoire Océanologique de Banyuls.
 
 Link to: [Professional webpage](https://lecob1.obs-banyuls.fr/index.php/personnel/liste-du-personnel/chercheurs/guizien-katell)
 
