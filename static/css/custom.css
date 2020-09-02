@@ -9,7 +9,9 @@ a:hover {
     margin-right: 10px;
     margin-bottom: 2px;
 }
-
+#site-head{
+    background: #487af6 no-repeat center center;
+}
 @media screen and (max-width:600px){
     .btn.site-menu{
         padding:5px 10px 5px 10px;
