@@ -20,9 +20,9 @@ Link to: [Professional webpage](https://lecob1.obs-banyuls.fr/index.php/personne
 
 ![Lorenzo BRAMANTI](images/lorenzo.jpg)
 
-Chercheur contractuel UPMC, Laboratoire d'Ecogéochimie des Environnements Benthiques, Observatoire Océanologique de Banyuls.
+Chargé de recherche CNRS, Laboratoire d'Ecogéochimie des Environnements Benthiques, Observatoire Océanologique de Banyuls.
 
-Link to: [Professional webpage](https://www.researchgate.net/profile/Lorenzo_Bramanti)
+Link to: [Professional webpage](https://lecob1.obs-banyuls.fr/index.php/personnel/liste-du-personnel/chercheurs/bramanti-lorenzo)
 
 ##### Erwan Kessler
 
