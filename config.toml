@@ -7,7 +7,7 @@ defaultContentLanguage = "fr"
 
 # The name of this wonderful theme ;-).
 theme = "hugo-scroll"
-
+disableLiveReload = true
 # The "title" of your website
 title = "Observatoire du sexe sous marin"
 
