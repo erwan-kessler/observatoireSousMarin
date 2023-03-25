@@ -26,4 +26,4 @@ Link to: [Professional webpage](https://lecob1.obs-banyuls.fr/index.php/personne
 
 ##### Erwan Kessler
 
-Etudiant en cybersécurité, developpeur du site web sous hugo.
+Site webmaster
