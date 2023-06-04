@@ -1,0 +1,21 @@
+{{ $headless := .Site.GetPage "/cards" }}
+{{ $sections := $headless.Resources.ByType "page" }}
+{{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
+{{ $content := where $sections "Params.external" "==" nil }}
+
+
+<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+    {{ range $index_val, $elem_val := $content }}
+    <div class="gallery-cell">
+        <div class="card" id="card-{{ add $index_val +1 }}">
+            <div class="card-header">
+                <h2>{{ .Title }}</h2>
+            </div>
+            <div class="card-content">
+                <img src="{{ .Params.image }}" alt="{{ .Title }}"/>
+                <p>{{ .Content }}</p>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
