@@ -4,7 +4,7 @@
 {{ $content := where $sections "Params.external" "==" nil }}
 
 
-<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "adaptiveHeight": true}'>
     {{ range $index_val, $elem_val := $content }}
     <div class="gallery-cell">
         <div class="card" id="card-{{ add $index_val +1 }}">
